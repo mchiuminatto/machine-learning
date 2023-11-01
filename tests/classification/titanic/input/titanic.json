@@ -1,0 +1,30 @@
+{
+  "datasets": {
+    "train": {
+      "storage": {
+        "storage-type": "file-system",
+        "credentials": {},
+        "container": "/tests/classification/titanic/data/"
+      },
+      "name": "train.csv",
+      "metadata": {}
+    },
+    "test": {
+      "storage": {
+        "storage-type": "file-system",
+        "credentials": {},
+        "container": "/tests/classification/titanic/data/"
+      },
+      "name": "test.csv",
+      "metadata": {}
+    }
+  },
+  "outputs": {
+    "storage": {
+      "storage-type": "file-system",
+      "credentials": {
+      },
+      "container": "/tests/classification/titanic/output/"
+    }
+  }
+}
